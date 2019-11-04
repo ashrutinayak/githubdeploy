@@ -1,5 +1,4 @@
 <?php
-	
 	// The commands
 	$commands = array(
 		'echo $PWD',
@@ -7,9 +6,9 @@
 		'git reset --hard HEAD',
 		'git pull',
 		'git status',
-		// 'git submodule sync',
-		// 'git submodule update',
-		// 'git submodule status',
+		'git submodule sync',
+		'git submodule update',
+		'git submodule status',
 	);
 	// Run the commands for output
 	$output = '';
